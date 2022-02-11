@@ -17,3 +17,13 @@ INSERT INTO tb_course (name, img_uri, img_gray_uri) VALUES ('Bootcamp HTML', 'ht
 
 INSERT INTO tb_offer (edition, star_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', 1);
 INSERT INTO tb_offer (edition, star_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', 1);
+
+INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Olá mundo', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', false, 'Olá mundo', 1);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 1, 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas duvidas', 2, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 2, 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 0, 1);
+
+
+
+
