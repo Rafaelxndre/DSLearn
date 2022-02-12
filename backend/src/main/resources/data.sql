@@ -24,6 +24,8 @@ INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) 
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas duvidas', 2, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 0, 1);
 
-
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Neste capitulo vamos começar!', 1, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'Neste capitulo vamos continuar!', 2, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Neste capitulo vamos finalizarr!', 3, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 1, 2);
 
 
