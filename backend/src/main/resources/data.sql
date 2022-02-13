@@ -28,4 +28,9 @@ INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prer
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'Neste capitulo vamos continuar!', 2, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 1, 1);
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Neste capitulo vamos finalizarr!', 3, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 1, 2);
 
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1, TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', null, true, false);
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1, TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', null, true, false);
+
+
+
 
