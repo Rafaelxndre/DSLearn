@@ -90,8 +90,6 @@ public class Offer implements Serializable{
 	public void setCourse(Course course) {
 		this.course = course;
 	}
-	
-	
 
 	public List<Resource> getResources() {
 		return resources;

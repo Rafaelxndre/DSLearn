@@ -18,7 +18,9 @@ INSERT INTO tb_course (name, img_uri, img_gray_uri) VALUES ('Bootcamp HTML', 'ht
 INSERT INTO tb_offer (edition, star_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', 1);
 INSERT INTO tb_offer (edition, star_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', 1);
 
-INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Olá mundo', TIMESTAMP WITH TIME ZONE '2020-07-21T20:59:19Z', false, 'Olá mundo', 1);
+INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Primeiro feedback de tarefa: favor revisar', TIMESTAMP WITH TIME ZONE '2020-12-10T13:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
+INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Segundo feedback: favor revisar', TIMESTAMP WITH TIME ZONE '2020-12-12T13:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
+INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Terceiro feedback: favor revisar', TIMESTAMP WITH TIME ZONE '2020-12-14T13:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
 
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 1, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas duvidas', 2, 'https://techvccloud.mediacdn.vn/zoom/600_315/2019/8/8/88b-15652618173341842809607-crop-1565261823940958680635.png', 2, 1);
@@ -45,3 +47,5 @@ INSERT INTO tb_task (id, description, question_Count, approval_Count, weight, du
 
 INSERT INTO tb_lessons_done (lesson_id, user_id, offer_id) VALUES (1, 1, 1);
 INSERT INTO tb_lessons_done (lesson_id, user_id, offer_id) VALUES (2, 1, 1);
+
+INSERT INTO tb_deliver (uri, moment, status, feedback, correct_Count, lesson_id, user_id, offer_id) VALUES ('https://github.com/devsuperior/bds-dslearn', TIMESTAMP WITH TIME ZONE '2020-12-10T10:00:00Z', 0, null, null, 4, 1, 1);
