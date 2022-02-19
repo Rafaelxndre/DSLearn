@@ -127,10 +127,6 @@ public class Topic implements Serializable{
 		return likes;
 	}
 
-	public void setLikes(Set<User> likes) {
-		this.likes = likes;
-	}
-
 	public User getAuthor() {
 		return author;
 	}
