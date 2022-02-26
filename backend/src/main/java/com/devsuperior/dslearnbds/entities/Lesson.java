@@ -99,10 +99,6 @@ public abstract class Lesson implements Serializable{
 		return enrollmentsDone;
 	}
 
-	public void setEnrollmentsDone(Set<Enrollment> enrollmentsDone) {
-		this.enrollmentsDone = enrollmentsDone;
-	}
-
 	public List<Deliver> getDeliveries() {
 		return deliveries;
 	}
